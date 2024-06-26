@@ -5,7 +5,7 @@ import React from "react";
 
 export const Forms = () => {
   return (
-    <div className="mx-auto w-full  bg-slate-100 py-2 px-3">
+    <div className="mx-auto w-full py-2 px-3">
       <form className="mx-auto my-4 md:my-6">
         <div className="overflow-hidden rounded-xl bg-white p-4 shadow">
           <p className="text-sm font-bold text-gray-900">List a Car</p>

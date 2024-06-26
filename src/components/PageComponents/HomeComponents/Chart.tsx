@@ -25,8 +25,7 @@ ChartJS.register(
 );
 export const Chart = () => {
   const options = {
-    responsive: false,
-
+    maintainAspectRatio: false,
     scales: {
       y: {
         grid: {
@@ -47,12 +46,12 @@ export const Chart = () => {
       "Apr",
       "May",
       "Jun",
-      // "Jul",
-      // "Aug",
-      // "Sep",
-      // "Oct",
-      // "Nov",
-      // "Dec",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
     ],
     datasets: [
       {
@@ -92,7 +91,7 @@ export const Chart = () => {
     ],
   };
   return (
-    <div className="sm:px-7 px-3 py-4 sm:py-8 w-auto rounded-lg grid gap-2 shadow-md overflow-x-auto ">
+    <div className="sm:px-7 px-3 py-4 sm:py-8 rounded-lg grid gap-2 shadow-md overflow-x-auto  ">
       <div className="flex flex-col space-y-4 md:flex-row md:items-center md:justify-between md:space-y-0">
         <div>
           <h2 className="text-lg font-semibold">Total Income</h2>
@@ -102,7 +101,10 @@ export const Chart = () => {
           <FaChevronDown />
         </div>
       </div>
-      <Line options={options} data={lineChartData} />
+      <div className="canvas-container">
+        {" "}
+        <Line options={options} data={lineChartData} />
+      </div>
     </div>
   );
 };
