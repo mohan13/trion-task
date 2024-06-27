@@ -5,12 +5,6 @@ import React from "react";
 
 import { FaChevronDown } from "react-icons/fa";
 export const Toolbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
   return (
     <div className="mx-auto  w-full bg-white flex max-w-7xl items-center justify-between px-4 py-6 sm:px-6 lg:px-8">
       <div className="inline-flex items-center space-x-2">

@@ -8,7 +8,7 @@ export interface IcarsDetails {
   status: string;
   mfd: number;
 }
-[];
+
 export const car_details = [
   {
     id: 1,

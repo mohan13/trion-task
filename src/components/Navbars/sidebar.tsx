@@ -54,13 +54,12 @@ export const Sidebar = () => {
               ) : (
                 <img src={item.icons} className="h-6 w-6" alt="icons" />
               )}
-              {/* <span className="mx-2 text-sm font-medium">{item.title}</span> */}
             </Link>
           ))}
         </nav>
 
         <div className="cursor-pointer">
-          <img className="mt-6" src="/assets/icons/Logout.svg" />
+          <img className="mt-6" src="/assets/icons/Logout.svg" alt="logout" />
         </div>
       </aside>
     </aside>
