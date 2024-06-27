@@ -46,12 +46,12 @@ export const Chart = () => {
       "Apr",
       "May",
       "Jun",
-      "Jul",
-      "Aug",
-      "Sep",
-      "Oct",
-      "Nov",
-      "Dec",
+      // "Jul",
+      // "Aug",
+      // "Sep",
+      // "Oct",
+      // "Nov",
+      // "Dec",
     ],
     datasets: [
       {

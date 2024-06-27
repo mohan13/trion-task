@@ -7,7 +7,7 @@ import { TbBrandBooking } from "react-icons/tb";
 export const Sidebar = () => {
   return (
     <aside className="flex h-screen sticky top-0 sm:w-64 w-16  flex-col items-center border-r bg-black px-5 py-8">
-      <div className="text-white text-center sm:text-2xl text-base">
+      <div className="text-white text-center sm:text-2xl text-sm px-2 ">
         CAR RENTAL
       </div>
       <div className="mt-6 sm:flex hidden flex-1 flex-col justify-between">
